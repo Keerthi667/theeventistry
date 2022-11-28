@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <title>Bootstrap demo</title>
+
+      <link  rel="stylesheet" href="public/css/styles2.css" />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Ubuntu&display=swap"
+        rel="stylesheet"
+      />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+        rel="stylesheet"
+      />
+      <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+        crossorigin="anonymous"
+      />
+
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+      />
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"
+      ></script>
+    </head>
+    <body>
+      <section id="title">
+        <div class="container-fluid">
+          <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="">Theventistry</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href=""
+                    ><i class="fa-solid fa-user"></i
+                    >&nbsp;&nbsp;<%=user_Name%></a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/">Sign out</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </section>
+
+      <section class="card-section">
+        <h2 class="display-4">Events</h2>
+        <p class="load" style="color: #8f8f8f;">Make your loved one's feel more Special!</p>
+        <div class="conatiner container-two">
+          <div class="row">
+            <div class="col-lg-4 col-md-6">
+              <div class="card" style="width: 15rem; background-color: #d0cde1">
+                <img
+                  src="css/images/wl.svg"
+                  class="card-img-top"
+                  alt="..."
+                  width="180"
+                  height="180"
+                />
+                <div class="card-body">
+                  <button style="border: none;" type="button" class="btn btn-outline-primary" name="anniversary"><a style="color:#000; text-decoration:none" href="/form">Anniversary</a></button>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="card" style="width: 15rem; background-color: #d0cde1">
+                <img
+                  src="css/images/wb.svg"
+                  class="card-img-top"
+                  alt="..."
+                  width="180"
+                  height="180"
+                />
+                <div class="card-body">
+                  
+                    <button  type="button"style="border:none;" class="btn btn-outline-primary" name="birthday"><a style="color:#000000 ; text-decoration:none" href="/form">Birthday</a></button>
+                
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="card" style="width: 15rem; background-color: #d0cde1">
+                <img
+                  src="css/images/wf.svg"
+                  class="card-img-top"
+                  alt="..."
+                  width="180"
+                  height="180"
+                />
+                <div class="card-body">
+                  <button  type="button" style="border:none;" class="btn btn-outline-primary" name="party"><a style="color:#000; text-decoration:none" href="/form">GetTogether</a></button>
+                  
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="card" style="width: 15rem; background-color: #d0cde1">
+                <img
+                  src="css/images/wd.svg"
+                  class="card-img-top"
+                  alt="..."
+                  width="180"
+                  height="180"
+                />
+                <div class="card-body">
+                  <button type="button" style="border:none;" class="btn btn-outline-primary" name="bride"><a style="color:#000; text-decoration:none" href="/form">Bride2Be</a></button>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="card" style="width: 15rem; background-color: #d0cde1">
+                <img
+                  src="css/images/baby.svg"
+                  class="card-img-top"
+                  alt="..."
+                  width="180"
+                  height="180"
+                />
+                <div class="card-body">
+                  <button type="button" style="border:none;" class="btn btn-outline-primary" name="babyshower"><a style="color:#000; text-decoration:none" href="/form">BabyShower</a></button>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="card" style="width: 15rem; background-color: #d0cde1">
+                <img
+                  src="css/images/we.svg"
+                  class="card-img-top"
+                  alt="..."
+                  width="180"
+                  height="180"
+                />
+                <div class="card-body">
+                  
+              <button type="button" style="border:none;" class="btn btn-outline-primary " name="proposal"><a style="color:#000; text-decoration:none" href="/form">Proposal</a></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <%-include("partials/footer"); -%>
+    </body>
+  </html>
+</DOCTYPE>

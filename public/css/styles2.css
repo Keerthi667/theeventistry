@@ -1,0 +1,48 @@
+body {
+  background-color: #f2f2f2;
+}
+
+#title {
+  background-color: #f2f2f2;
+}
+
+#title .container-fluid {
+  padding: 3% 10% 5%;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* NAVBAR SECTION*/
+.navbar {
+  padding-bottom: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "poppins", sans-serif;
+  font-weight: 400;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+.card-section {
+  background-color: #f2f2f2;
+}
